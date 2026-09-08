@@ -4,7 +4,7 @@ An AI-powered restaurant voice-agent backend built with **Vapi + Google Apps Scr
 
 The project exposes a single Google Apps Script Web App endpoint that receives Vapi tool calls and uses Google Sheets as the restaurant's lightweight database.
 
-## Features
+## ✨ Features
 
 - Table availability lookup by date and time
 - Reservation booking with automatic table-count reduction
@@ -19,11 +19,11 @@ The project exposes a single Google Apps Script Web App endpoint that receives V
 - Manual test functions for Apps Script
 - One Web App URL can serve all Vapi tools
 
-## System Flow Chart
+## 🔄 System Flow Chart
 
 ![Blue Moon Restaurant Voice Agent Flow Chart](screenshots/Restaurant_Flowchart.png)
 
-## Tools handled
+## 🛠️ Tools Handled
 
 | Vapi tool | Apps Script function | Purpose |
 |---|---|---|
@@ -36,7 +36,7 @@ The project exposes a single Google Apps Script Web App endpoint that receives V
 | `Manage_Order` | `manageOrder()` | Cancel/update order |
 | `Restaurant_Info` | `getRestaurantInfo()` | Return restaurant information |
 
-## Google Sheets structure
+## 📊 Google Sheets Structure
 
 The Apps Script expects these sheet tabs:
 
@@ -46,7 +46,7 @@ The Apps Script expects these sheet tabs:
 - `Orders`
 - `Restaurant_Info`
 
-### Required columns
+### 📋 Required Columns
 
 **Table_Availability**
 - `date`
@@ -78,13 +78,13 @@ The Apps Script expects these sheet tabs:
 - `field`
 - `value`
 
-## Setup
+## ⚙️ Setup
 
-### 1. Create or open the Google Sheet
+### 1️⃣ Create or Open the Google Sheet
 
 Create the five required tabs and add the headers listed above.
 
-### 2. Open Apps Script
+### 2️⃣ Open Apps Script
 
 In Google Sheets:
 
@@ -92,7 +92,7 @@ In Google Sheets:
 
 Paste `Code.gs` into the Apps Script project.
 
-### 3. Add your Sheet ID
+### 3️⃣ Add Your Sheet ID
 
 Replace:
 
@@ -104,7 +104,7 @@ with your actual Google Sheet ID.
 
 **Do not commit private IDs, API keys, tokens, or credentials to GitHub.**
 
-### 4. Deploy as a Web App
+### 4️⃣ Deploy as a Web App
 
 In Apps Script:
 
@@ -117,7 +117,7 @@ Recommended settings for a Vapi webhook:
 
 Authorize the script when Google asks for permission.
 
-### 5. Connect Vapi
+### 5️⃣ Connect Vapi
 
 Copy the deployed Web App URL ending in `/exec`.
 
@@ -125,7 +125,7 @@ Use that same URL as the Server URL for the Vapi custom tools.
 
 Make sure the tool names/arguments match the functions documented in `Code.gs`.
 
-### 6. Test
+### 6️⃣ Test
 
 The project includes manual test functions:
 
@@ -142,14 +142,14 @@ The project includes manual test functions:
 
 Run them from the Apps Script editor and inspect the execution log.
 
-## Important deployment note
+## 🚀 Important Deployment Note
 
 After changing `Code.gs`, create a **new deployment version** or update the existing deployment. Otherwise the Vapi webhook may continue using the previous deployed version.
 
 
-## Example voice-agent flows
+## 🎙️ Example Voice-Agent Flows
 
-### Reservation
+### 🍽️ Reservation
 
 ```text
 Customer: "I want a table tomorrow at 7 PM for four."
@@ -164,7 +164,7 @@ Vapi -> Reservations
        -> available table count decreases
 ```
 
-### Food order
+### 🛒 Food Order
 
 ```text
 Customer: "I'd like two Chicken Biryani and one Fresh Lime."
@@ -176,7 +176,7 @@ Vapi -> Orders
        -> order is stored in Orders
 ```
 
-### Cancellation
+### ❌ Cancellation
 
 ```text
 Customer: "Cancel reservation R001."
@@ -186,7 +186,7 @@ Vapi -> Manage_Reservation
        -> table is released back to availability
 ```
 
-## Future improvements
+## 🔮 Future Improvements
 
 - Webhook authentication
 - Better request validation
@@ -214,6 +214,6 @@ For custom implementation or commercial use, please <strong>Contact Us:</strong>
 
 **Faheem Abbas**
 
-AI Automation Specialist | n8n Expert | AI Agents | AI-Powered Business Automation | Lead Generation | API Integrations
+AI Automation Specialist | n8n Expert | AI Agents | AI-Powered Business Automation | Lead Generation | API Integrations | Calling Agents
 
 **#AI #AIAutomation #n8n #RAG #GoogleGemini #Pinecone #WhatsAppAutomation #LLM #AIEngineering #Automation #bluemoonways**
