@@ -146,17 +146,6 @@ Run them from the Apps Script editor and inspect the execution log.
 
 After changing `Code.gs`, create a **new deployment version** or update the existing deployment. Otherwise the Vapi webhook may continue using the previous deployed version.
 
-## Security notes
-
-This repository intentionally contains a placeholder Sheet ID.
-
-For production:
-
-- Keep secrets outside source code.
-- Use Apps Script `PropertiesService` for sensitive configuration where appropriate.
-- Validate incoming requests before performing write operations.
-- Restrict access if your production architecture supports authenticated webhooks.
-- Avoid publishing customer phone numbers or other personal data in sample files.
 
 ## Example voice-agent flows
 
@@ -197,12 +186,6 @@ Vapi -> Manage_Reservation
        -> table is released back to availability
 ```
 
-## Project status
-
-**Portfolio / learning project**
-
-Built to demonstrate practical integration of voice AI, webhooks, Google Apps Script, and spreadsheet-based backend automation.
-
 ## Future improvements
 
 - Webhook authentication
@@ -218,7 +201,7 @@ Built to demonstrate practical integration of voice AI, webhooks, Google Apps Sc
 
 ## 📌 Portfolio Implementation
 
-This project demonstrates a practical implementation of an **AI-powered e-commerce customer support system** where customers can interact with a business through WhatsApp and receive knowledge-grounded answers automatically.
+Built to demonstrate practical integration of voice AI, webhooks, Google Apps Script, and spreadsheet-based backend automation.
 
 A sanitized n8n workflow file is included for portfolio demonstration.
 
