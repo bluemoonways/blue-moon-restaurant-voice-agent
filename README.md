@@ -222,7 +222,7 @@ This project demonstrates a practical implementation of an **AI-powered e-commer
 
 A sanitized n8n workflow file is included for portfolio demonstration.
 
-👉 [View / Download App Script Code](google_sheet_app_script_code.gs)
+👉 [View / Download App Script Code]Code.gs)
 
 For custom implementation or commercial use, please <strong>Contact Us:</strong>
 <a href="https://wa.me/923002120566"><img src="https://raw.githubusercontent.com/bluemoonways/bluemoonways/main/assets/whatsapp-logo.png" width="30" alt="WhatsApp" style="position: relative; top: 2px;"></a>   <a href="https://www.linkedin.com/in/faheem-abbas-ai-automation-specialist/"><img src="https://raw.githubusercontent.com/bluemoonways/bluemoonways/main/assets/linkedin-logo.png" width="30" alt="LinkedIn" style="position: relative; top: 2px;"></a>
