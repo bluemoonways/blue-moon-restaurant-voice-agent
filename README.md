@@ -1,4 +1,4 @@
-# Blue Moon Restaurant Voice Agent
+# Blue Moon Restaurant Calling Agent
 
 An AI-powered restaurant voice-agent backend built with **Vapi + Google Apps Script + Google Sheets**.
 
