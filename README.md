@@ -19,8 +19,9 @@ The project exposes a single Google Apps Script Web App endpoint that receives V
 - Manual test functions for Apps Script
 - One Web App URL can serve all Vapi tools
 
-## Architecture
+## System Flow Chart
 
+![Blue Moon Restaurant Voice Agent Flow Chart](screenshots/Restaurant_Flowchart.png)
 
 ## Tools handled
 
